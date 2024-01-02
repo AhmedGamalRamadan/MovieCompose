@@ -24,3 +24,4 @@ The application is built with the Model-View-ViewModel (MVVM) Architecture patte
     <td><img src="https://github.com/AhmedGamalRamadan/MovieCompose/assets/144063315/f2631c72-8aff-4836-a46f-3ef029a9d5cc" alt="splash" width="230"></td>
   </tr>
 </table>
+
