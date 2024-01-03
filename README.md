@@ -1,4 +1,4 @@
-# News App with Jetpack Compose
+# Movie App with Jetpack Compose
 The application is built with the Model-View-ViewModel (MVVM) Architecture pattern,
  which promotes a stable and scalable codebase. Additionally,
  Dagger Hilt is used for efficient dependency injection,
