@@ -1,7 +1,11 @@
+@file:OptIn(ExperimentalFoundationApi::class)
+
 package com.appssquare.ag.moviecompose.architecture.presentation.components
 
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.basicMarquee
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -119,7 +123,9 @@ fun MovieItem(
         Spacer(modifier = Modifier.height(6.dp))
 
         Text(
-            modifier = Modifier.padding(start = 16.dp, end = 8.dp),
+            modifier = Modifier
+                .padding(start = 16.dp, end = 8.dp)
+                .basicMarquee(),
             text = movie.title,
             color = Color.White,
             fontSize = 15.sp,
