@@ -13,7 +13,7 @@ The application is built with the Model-View-ViewModel (MVVM) Architecture patte
 - **Dagger Hilt:** Dependency injection is handled by *Dagger Hilt*, streamlining the management of dependencies and improving the overall architecture.
 - **Retrofit:** Network calls are facilitated by *Retrofit*, enabling seamless communication with remote APIs.
 - **Room:** *Room* is used for local data storage, providing a reliable and efficient way to manage app-related data.
-- **Offline Capability:** This is a first offline app, ensuring users best possible experience even without an active internet connection.
+- **Offline Capability:**  Ensuring users best possible experience even without an active internet connection.
 
 
 ### Screenshot
@@ -24,4 +24,5 @@ The application is built with the Model-View-ViewModel (MVVM) Architecture patte
     <td><img src="https://github.com/AhmedGamalRamadan/MovieCompose/assets/144063315/f2631c72-8aff-4836-a46f-3ef029a9d5cc" alt="splash" width="230"></td>
   </tr>
 </table>
+
 
